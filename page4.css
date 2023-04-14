@@ -1,3 +1,49 @@
 img{
-    width:500px;
+    width:1000px;
+    height: 100vh;
 }
+  #header {
+    padding-top: 20px;
+    padding-left: 300px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    background: radial-gradient(at bottom left, rgba(184, 125, 88, 0.8) 0%, rgba(184, 125, 88, 0) 100%);
+  }
+  #nav1 a{
+    align-items: center;
+    justify-content: space-between;
+    color: #3a5f56;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all 2s;
+  }
+  #nav1 a:hover {
+     text-decoration: underline; 
+  }
+#Trophy {
+    color: blueviolet;
+    font-size: 50px;
+    align-items: center;
+}
+p{
+    font-size: 30px;
+    padding-left: 370px;
+    color: red;
+}
+#presets button {
+    color: white;
+    background-color: #3a5f56;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 11px;
+    border-radius: 6px;
+    border: none;
+    width: 300px;
+    transition: all 0.6s;
+  }
+  #presets button:hover {
+      color:rgba(173, 83, 27, 0.8);
+      cursor: pointer;
+  }
