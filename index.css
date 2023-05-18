@@ -101,7 +101,7 @@ footer {
 .button {
  background-color: purple;
  text-align: center;
- border-radius: 5px;
+ border-radius: 15px;
  color: green;
  transition: all 1s;
  padding: 20px;
@@ -109,5 +109,7 @@ footer {
  margin-left: 100px;
 }
 .button:hover{
-    transform: rotateX(60deg);
+    
+    background-color: aquamarine;
+    padding: 30px;
 }
